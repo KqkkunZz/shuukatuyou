@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>第6回CRカップ</title>
+<script type="text/javascript" th:src="@{/js/jquery-3.6.0.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/kasaneuta.js}"></script>
+<link type="text/css" rel="stylesheet" th:href="@{/css/crcup_register.css}">
+<link type="text/css" rel="stylesheet" th:href="@{/css/kasaneuta.css}">
+<script type="text/javascript" th:src="@{/js/ajax2.js}"></script>
+</head>
+<body>
+<header>
+	<div id="loading">Loading...</div>
+	<div id="youtube-area">
+		<div id="youtube"></div>
+		<div id="youtube-mask"></div>
+	</div>
+</header>
+	<div id="container">
+		<h1>第6回CRカップ～夏の思い出～</h1>
+		<a href="http://localhost:8080/crcup">トップページへ</a>
+		<h2>チーム登録フォーム</h2>
+		<div class="select">
+		<select name="country" id="country" class="country">
+				<option>リーダーの出身国</option>
+				<option>日本</option>
+				<option>韓国</option>
+		</select><br>
+		</div> 
+		<label>
+		<input type="text" placeholder="チーム名" name="team" id="team"></label><br>
+		<label>
+		<input type="text" placeholder="リーダー名" name="leader" id="leader"></label><br>
+		<label>
+		<input type="text" placeholder="メンバー1人目" name="memberA" id="memberA"></label><br>
+		<label>
+		<input type="text" placeholder="メンバー2人目" name="memberB" id="memberB"></label><br>
+		<label>
+		<input type="text" placeholder="コーチ1人目" name="coachA" id="coachA"></label><br>
+		<label>
+		<input type="text" placeholder="コーチ2人目" name="coachB" id="coachB"></label><br>
+		<label>
+		<input type="text" placeholder="コーチ3人目" name="coachC" id="coachC"></label><br>
+		<input type="button" onclick="register()" value="登録" name="registerData" id="registerData"
+			class="register">
+		<form  th:action="@{/crcup}" class="back">
+			<input type="submit" value="戻る" name="top">
+		</form>
+		<p>※コーチを登録しない場合は"-"を入力</p>
+		<table class="tableArea" id="result">
+			<tr>
+				<th>チームNo.</th>
+				<th>出身国</th>
+				<th>チーム名</th>
+				<th>リーダー</th>
+				<th>メンバーα</th>
+				<th>メンバーβ</th>
+				<th>コーチα</th>
+				<th>コーチβ</th>
+				<th>コーチγ</th>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

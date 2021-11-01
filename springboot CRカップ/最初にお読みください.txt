@@ -1,0 +1,3 @@
+・このソースはEclipceで使用できるSpringBootでの環境のみで動かせます
+・ソースを実行する前にDB作成内に添付されているCREATE文・INSERT文を実行してテーブルを作成してください
+・SpringBootで起動した後は、実行URLファイル内のテキストファイルからlocalhostに接続して下さい

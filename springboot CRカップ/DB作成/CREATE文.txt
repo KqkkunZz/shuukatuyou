@@ -1,0 +1,11 @@
+CREATE TABLE MEMBER_LIST(
+    ID char not null AUTO_INCREMENT primary key,
+    COUNTRY_OF_ORIGIN char not null,
+    TEAMNAME varchar(28) not null,
+    LEADER varchar(20) not null,
+    MEMBER_A varchar(20) not null,
+    MEMBER_B varchar(20) not null,
+    COACH_A varchar(15) ,
+    COACH_B varchar(15) ,
+    COACH_C varchar(15) 
+)

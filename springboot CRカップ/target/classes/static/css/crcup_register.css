@@ -1,0 +1,45 @@
+h1 {
+	margin-left: 10px;
+	font-weight: bold;
+	color: gray;
+}
+
+h2 {
+	margin-left: 10px;
+}
+
+label {
+	margin: 20 0 0 0px;
+}
+
+.register{
+	margin-top: 10px;
+}
+
+.back{
+	margin-top: 10px;
+}
+
+.tableArea {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 9pt;
+	background: white;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tableArea th {
+	text-align: center;
+	padding: 0px 0px;
+	border: 1px #666666 solid;
+	background: #44a6ff;
+}
+
+.tableArea td {
+	text-align: center;
+	padding: 0px 0px;
+	border: 1px #666666 solid;
+	color: black;
+}

@@ -1,0 +1,73 @@
+h1 {
+	margin-left: 10px;
+	font-weight: bold;
+	color: gray;
+}
+
+h2 {
+	margin-left: 10px;
+}
+
+.form{
+	margin-left: 10px;
+}
+
+.idSearch {
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: gray;
+}
+
+.teamSearch {
+	font-size: 14px;
+	margin-left: 10px;
+	color: gray;
+}
+
+.country {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.idSearchButton {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.register {
+	margin-top: 10px;
+}
+
+.all {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.tableArea {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 9pt;
+	background: white;
+	width: 80%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tableArea th {
+	text-align: center;
+	padding: 0px 0px;
+	border: 1px #666666 solid;
+	background: #44a6ff;
+}
+
+.tableArea td {
+	text-align: center;
+	padding: 0px 0px;
+	border: 1px #666666 solid;
+	color: black;
+}
